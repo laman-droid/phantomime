@@ -1,8 +1,8 @@
 html{
-    background-color: #111010;
-    color: white;
     font-family: sans-serif;
     height:100%;
+    margin:0;
+    padding:0;
 }
 
 @media only screen and (max-device-width: 600px) {
@@ -123,6 +123,8 @@ html{
         text-decoration: none;
         color:white;
     }
+
+    
 }
 
 @media only screen and (min-device-width: 601px) {
@@ -130,7 +132,8 @@ html{
     #topnav {
         display: flex;
         justify-content: center;
-        margin: 2em 5em 0 5em;
+        margin: 1em 5em 0 5em;
+        color: black;
     }
 
     #logo {
@@ -162,7 +165,7 @@ html{
    
     #navmenu li a, .dropbtn {
       text-decoration: none;
-        color:white;
+        color:black;
         display: block;
     }
 
@@ -210,7 +213,7 @@ html{
         grid-gap: 1em;
         margin-left: auto;
         margin-right: auto;
-        margin-top:-11.5rem;
+        margin-top:-10rem;
     }
 
     #pantomime {
@@ -238,7 +241,7 @@ html{
     #theatre {
         display: flex;
         grid-column: 2 / 3;
-        background-color: #353E4F;
+        background-color: #C2D6DB;
         text-align: center;
         width: 8.88em;
         height: 1.7em;
@@ -258,21 +261,32 @@ html{
    
     #empty {
         grid-column: 2 / 4;
-        background-color: #C6C3C0;
+        background-color: #C55B71;
         width: 75%;
         height: 55px;
         align-self: end;
+    }
+    
+    #now_showing{
+        background-color: #C2D6DB;
+        margin-top: 5em;
+        padding: 4em 1em 2em 1em;
+
+    }
+    
+    #upcoming{
+        background-color: #C55B71;
+        padding: 4em 1em 2em 1em;
     }
     
     .showmsg {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 5em;
     }
     
     .showmsg > a {
-        color: #C6C3C0;
+        color: white;
         font-size: 2rem;
         font-weight: bold;
         letter-spacing: 0.15em;
@@ -281,21 +295,31 @@ html{
     .showmsg > hr {
         display: none;
     }
+
+    .shows {
+        
+        display: flex;
+        justify-content: center;
+    }
     
     .show {
         display:inline-flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         color: #111010;
-        margin: 5% 2% 0 2%;
-        border-radius: 10px;
+        margin: 5% 0 5% 0;
         text-align: center;
+        min-width: 30%;
     }
     
     .showtxt {
-        background-color: white;
+        background-color: #8fb4bd;
         font-size: 1em;
-        flex: 30%;
-        
+        color:white;
+        padding: 2em;
+    }
+
+    #upcoming .showtxt{
+        background-color: #e8bdc6;
     }
     
     .showtxt > h5 {
@@ -305,23 +329,81 @@ html{
     }
     
     .showtxt > p {
-        opacity:0.5;
+        /**opacity:0.5;*/
         
     }
     
     .showpic {
         width: 17em;
-        height: 20em;
-        flex:70%;
-        border-radius: 10px 10px 0 0;
+        height: 24em;
         border: 0;
     }
     
     #footernav{
         display: none;
     }
+    
+    footer {
+        display: flex;
+        margin-top: 6rem;
+        /**background-color: #C6C3C0;**/
+        color: black;
+        padding: 2em;
+        flex-wrap: wrap;
+        
+    }
 
-}
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+
+    footer p{
+        margin:0.2em;
+        font-size: 0.85em;
+    }
+    
+    .footertitle{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .footertitle h5{
+      margin-bottom: 2em;
+    }
+    
+    footer h4, footer h5 {
+        color: #BD2030;
+    }
+    
+    .contact img {
+        width: 1.5em;
+        height: 1.5em;
+        padding-right: 0.5em;
+    }
+
+    .contact {
+        display: flex;
+        
+    }
+
+    .contact p{
+        align-self: center;
+    }
+
+    #credits a{
+        font-size: 0.6rem;
+        text-decoration: none;
+        color:grey;
+        
+    }
+    #credits {
+        float:right;
+        margin-bottom:1em;
+    }
 
 
     
@@ -333,9 +415,4 @@ html{
     #empty{
         width:60%;
     }
-    
-    
-    ]
 }
-
-    
