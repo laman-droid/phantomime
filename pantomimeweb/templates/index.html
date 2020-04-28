@@ -1,0 +1,175 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" 
+        href = "{% static '/style.css' %}"/>
+        <link rel="icon" href="../img/icon_txt.svg" type="image/x-icon">
+        <title>Azerbaijan Phantomime Theater</title>
+    </head>
+    <body>
+        
+        <nav id="topnav">
+            <div id="logo">
+                <img id="logopic" src="../img/logopan.png">
+                <a id="logotxt">Pantomime <br>Theatre</a>
+            </div>
+            <ul id="navmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a  href="index.html">Press</a> </li>
+                <li><a href="#">Kids</a></li>
+                <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">En</a>
+                <div class="dropdown-content">
+                    <a href="#">Az</a>
+                </div>
+            </ul>
+        </nav>
+        <div id="header">
+            <div id="pantomime"><a>Pantomime</a> </div>
+            <div id="theatre"><a>Theatre</a></div>
+            <img id="dejavu" src="../img/dejavu.jpg">
+            <img id="iandme" src="../img/iandme.jpg">
+            <div id="empty"></div>
+        </div>
+        
+        <div id="now_showing">
+            <div class="showmsg">
+                <hr>
+                <a>Now Showing</a>
+                <hr>
+            </div>
+            <div class="shows">
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>THE MASK</h5>
+                        <p>15.03-25.03  l  20.00-21.00 - 1 hr</p>
+                        <p class="extratxt">Don't you choose a mask too together with your everyday outfit? 
+                            How afraid are you of your vulnerability?</p>
+                            
+                            
+                        <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
+                        <button>Get a ticket</button>
+                    </div>
+                        <img class="showpic" src="../img/mask.jpg" alt="a girl dancing in front of a mask hanging on the wall">
+                </div>
+
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>I AND ME</h5>
+                        <p>15.03-25.03  l  20.00-21.00 - 1 hr</p>
+                        <p class="extratxt">Never ending monologues about regrets, sorries, unanswered questions with ourselves...</p>
+                        <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
+                        <button>Get a ticket</button>
+                    </div> 
+                        <img class="showpic" src="../img/iandme2.jpg" alt="a man confused looking himself in the mirrow">
+                </div>
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>THE FRAME</h5>
+                        <p>26.03-05.04  l  20.00-21.00 - 1 hr</p>
+                        <p class="extratxt">Will we ever be able to see the lines around us and try to step out?</p>
+                        <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
+                        <button>Get a ticket</button>
+                    </div>
+                        <img class="showpic" src="../img/frame.jpg" alt="a man on his knees reaching up with his right hand in blue light">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="upcoming">
+            <div class="showmsg">
+                <hr>
+                <a>Upcoming</a>
+                <hr>
+            </div>
+            <div class="shows">
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>THE FRAME</h5>
+                        <p>26.03-05.04  l  20.00-21.00 - 1 hr</p>
+                        <p class="extratxt">Will we ever be able to see the lines around us and try to step out?</p>
+                        <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
+                        <button>Get a ticket</button>
+                    </div>
+                        <img class="showpic" src="../img/frame.jpg" alt="a man on his knees reaching up with his right hand in blue light">
+                </div>
+                
+            </div>
+        </div>
+        
+        <ul id="footernav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">INFO</a></li>
+            <li><a href="#">TICKETS</a></li>
+            <li><a href="#">AZ</a></li>
+        </ul>
+        
+        <footer>
+            <div class="footertitle" id="about_us">
+                <h4>About Us</h4>
+                <p>Pantomime Theatre is extraordinary in a way of performing the plays. 
+                    Here you will experience all the feelings with poems, dances, 
+                    mimics without a single verbal dialoge.</p>
+                <h5>Contact Us</h5>
+                <div class="contact">
+                    <img src="../img/Locate.svg">
+                    <p>Azerbaijan State Pantomime Theater <br>
+                    Azadlıg 49, AZ 1000 </p>
+                </div>
+                <div class="contact">
+                    <img src="../img/Phone.svg">
+                    <p>Tel: (+994 12) 441-47-56</p>
+                </div>
+                <div class="contact">
+                    <img src="../img/Mail.svg">
+                    <p>E-mail: info@pantomima.az</p>
+                </div>
+            </div>
+
+            <div class="footertitle" id="information">
+                <h4>Information</h4>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>News</p>
+            </div>
+            
+            <div class="footertitle" id="social">
+                <h4>Social</h4>
+                <a href="https://www.facebook.com/groups/36380824674" target="_blank">
+                    <div class="contact">
+                        <img src="../img/Facebook.svg">
+                        <p>Facebook</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/pantomimetheatre/" target="_blank">
+                    <div class="contact">
+                        <img src="../img/Instagram.svg">
+                        <p>Instagram</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCNNCBYhtWnr7y0o05cdiJnA/" target="_blank">
+                    <div class="contact">
+                        <img src="../img/Youtube.svg">
+                        <p>Youtube</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="footertitle" id="newsletter">
+                <h4>Be the first to know:</h4>
+            </div>
+            
+        </footer>
+        <hr>
+        <div id="credits">
+            <a href="https://iconscout.com/contributors/bombasticon" target="_blank">Icons by Bombasticon Studio</a>
+        </div>
+        
+
+    </body>
+</html>
