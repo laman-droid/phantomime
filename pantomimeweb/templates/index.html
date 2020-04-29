@@ -1,18 +1,18 @@
+{% load staticfiles %}
 
 <!DOCTYPE html>
-{% load staticfiles %}
 <html>
     <head>
         <link rel = "stylesheet" type = "text/css" 
         href = "{% static 'style.css' %}"/>
-        <link rel="icon" href="../img/icon_txt.svg" type="image/x-icon">
+        <link rel="icon" href="{% static '/img/icon_txt.svg' %}" type="image/x-icon">
         <title>Azerbaijan Phantomime Theater</title>
     </head>
     <body>
         
         <nav id="topnav">
             <div id="logo">
-                <img id="logopic" src="../img/logopan.png">
+                <img id="logopic" src="{% static '/img/logopan.png' %}">
                 <a id="logotxt">Pantomime <br>Theatre</a>
             </div>
             <ul id="navmenu">
@@ -31,8 +31,8 @@
         <div id="header">
             <div id="pantomime"><a>Pantomime</a> </div>
             <div id="theatre"><a>Theatre</a></div>
-            <img id="dejavu" src="../img/dejavu.jpg">
-            <img id="iandme" src="../img/iandme.jpg">
+            <img id="dejavu" src="{% static '/img/dejavu.jpg' %}">
+            <img id="iandme" src="{% static '/img/iandme.jpg' %}">
             <div id="empty"></div>
         </div>
         
@@ -54,7 +54,7 @@
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div>
-                        <img class="showpic" src="../img/mask.jpg" alt="a girl dancing in front of a mask hanging on the wall">
+                        <img class="showpic" src="{% static '/img/mask.jpg' %}" alt="a girl dancing in front of a mask hanging on the wall">
                 </div>
 
                 <div class="show">
@@ -65,7 +65,7 @@
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div> 
-                        <img class="showpic" src="../img/iandme2.jpg" alt="a man confused looking himself in the mirrow">
+                        <img class="showpic" src="{% static '/img/iandme2.jpg' %}" alt="a man confused looking himself in the mirrow">
                 </div>
                 <div class="show">
                     <div class="showtxt">
@@ -75,7 +75,7 @@
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div>
-                        <img class="showpic" src="../img/frame.jpg" alt="a man on his knees reaching up with his right hand in blue light">
+                        <img class="showpic" src="{% static '/img/frame.jpg' %}" alt="a man on his knees reaching up with his right hand in blue light">
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div>
-                        <img class="showpic" src="../img/frame.jpg" alt="a man on his knees reaching up with his right hand in blue light">
+                        <img class="showpic" src="{% static '/img/frame.jpg' %}" alt="a man on his knees reaching up with his right hand in blue light">
                 </div>
                 
             </div>
@@ -117,16 +117,16 @@
                     mimics without a single verbal dialoge.</p>
                 <h5>Contact Us</h5>
                 <div class="contact">
-                    <img src="../img/Locate.svg">
+                    <img src="{% static '/img/Locate.svg' %}">
                     <p>Azerbaijan State Pantomime Theater <br>
                     Azadlıg 49, AZ 1000 </p>
                 </div>
                 <div class="contact">
-                    <img src="../img/Phone.svg">
+                    <img src="{% static '/img/Phone.svg' %}">
                     <p>Tel: (+994 12) 441-47-56</p>
                 </div>
                 <div class="contact">
-                    <img src="../img/Mail.svg">
+                    <img src="{% static '/img/Mail.svg' %}">
                     <p>E-mail: info@pantomima.az</p>
                 </div>
             </div>
@@ -142,19 +142,19 @@
                 <h4>Social</h4>
                 <a href="https://www.facebook.com/groups/36380824674" target="_blank">
                     <div class="contact">
-                        <img src="../img/Facebook.svg">
+                        <img src="{% static '/img/Facebook.svg' %}">
                         <p>Facebook</p>
                     </div>
                 </a>
                 <a href="https://www.instagram.com/pantomimetheatre/" target="_blank">
                     <div class="contact">
-                        <img src="../img/Instagram.svg">
+                        <img src="{% static '/img/Instagram.svg' %}">
                         <p>Instagram</p>
                     </div>
                 </a>
                 <a href="https://www.youtube.com/channel/UCNNCBYhtWnr7y0o05cdiJnA/" target="_blank">
                     <div class="contact">
-                        <img src="../img/Youtube.svg">
+                        <img src="{% static '/img/Youtube.svg' %}">
                         <p>Youtube</p>
                     </div>
                 </a>
