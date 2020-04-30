@@ -24,9 +24,12 @@ STAT = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'ggv=830c(rlx0e9ak5i014p(78&*#cpa2muzd-&r7v*a_t_@#0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['laman-mahammadli.com']
 
 
 # Application definition
