@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 13:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\index.html:10
+msgid "Title"
+msgstr "Azerbaijan Phantomime Theater"
+
+#: .\index.html:17 .\index.html:33
+msgid "Pantomime"
+msgstr ""
+
+#: .\index.html:17 .\index.html:34
+msgid "Theatre"
+msgstr ""
+
+#: .\index.html:20 .\index.html:106
+msgid "Home"
+msgstr ""
+
+#: .\index.html:21 .\index.html:107
+msgid "Info"
+msgstr ""
+
+#: .\index.html:22 .\index.html:108
+msgid "Tickets"
+msgstr ""
+
+#: .\index.html:23
+msgid "Press"
+msgstr ""
+
+#: .\index.html:24
+msgid "Kids"
+msgstr ""
+
+#: .\index.html:43
+msgid "NowShowing"
+msgstr "Now Showing"
+
+#: .\index.html:49
+msgid "TheMask"
+msgstr "The Mask"
+
+#: .\index.html:51
+msgid "TheMasktxt"
+msgstr "Don't you choose a mask too together with your everyday outfit? How afraid are you of your vulnerability?"
+
+#: .\index.html:62
+msgid "IandMe"
+msgstr ""
+
+#: .\index.html:64
+msgid "IandMetxt"
+msgstr "Never ending monologues about regrets, sorries, unanswered questions with ourselves..."
+
+#: .\index.html:72 .\index.html:93
+msgid "TheFrame"
+msgstr ""
+
+#: .\index.html:74
+msgid "TheFrametxt"
+msgstr "Will we ever be able to see the lines around us and try to step out?"
+
+#: .\index.html:87
+msgid "Upcoming"
+msgstr ""

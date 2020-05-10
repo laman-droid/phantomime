@@ -1,4 +1,5 @@
-{% load staticfiles %}
+{% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html>
@@ -6,31 +7,31 @@
         <link rel = "stylesheet" type = "text/css" 
         href = "{% static 'style.css' %}"/>
         <link rel="icon" href="{% static '/img/icon_txt.svg' %}" type="image/x-icon">
-        <title>Azerbaijan Phantomime Theater</title>
+        <title>{% trans 'Title' %}</title>
     </head>
     <body>
         
         <nav id="topnav">
             <div id="logo">
                 <img id="logopic" src="{% static '/img/logopan.png' %}">
-                <a id="logotxt">Pantomime <br>Theatre</a>
+                <a id="logotxt">{% trans 'Pantomime' %} <br>{% trans 'Theatre' %}</a>
             </div>
             <ul id="navmenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">Tickets</a></li>
-                <li><a  href="index.html">Press</a> </li>
-                <li><a href="#">Kids</a></li>
+                <li><a href="">{% trans 'Home' %}</a></li>
+                <li><a href="#">{% trans 'Info' %}</a></li>
+                <li><a href="#">{% trans 'Tickets' %}</a></li>
+                <li><a  href="index.html">{% trans 'Press' %}</a> </li>
+                <li><a href="#">{% trans 'Kids' %}</a></li>
                 <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">En</a>
+                <a href="/en" class="dropbtn">En</a>
                 <div class="dropdown-content">
-                    <a href="#">Az</a>
+                    <a href="/az">Az</a>
                 </div>
             </ul>
         </nav>
         <div id="header">
-            <div id="pantomime"><a>Pantomime</a> </div>
-            <div id="theatre"><a>Theatre</a></div>
+            <div id="pantomime"><a>{% trans 'Pantomime' %}</a> </div>
+            <div id="theatre"><a>{% trans 'Theatre' %}</a></div>
             <img id="dejavu" src="{% static '/img/dejavu.jpg' %}">
             <img id="iandme" src="{% static '/img/iandme.jpg' %}">
             <div id="empty"></div>
@@ -39,16 +40,15 @@
         <div id="now_showing">
             <div class="showmsg">
                 <hr>
-                <a>Now Showing</a>
+                <a>{% trans 'NowShowing' %}</a>
                 <hr>
             </div>
             <div class="shows">
                 <div class="show">
                     <div class="showtxt">
-                        <h5>THE MASK</h5>
+                        <h5>{% trans 'TheMask' %}</h5>
                         <p>15.03-25.03  l  20.00-21.00 - 1 hr</p>
-                        <p class="extratxt">Don't you choose a mask too together with your everyday outfit? 
-                            How afraid are you of your vulnerability?</p>
+                        <p>{% trans 'TheMasktxt' %}</p>
                             
                             
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
@@ -59,9 +59,9 @@
 
                 <div class="show">
                     <div class="showtxt">
-                        <h5>I AND ME</h5>
+                        <h5>{% trans 'IandMe' %}</h5>
                         <p>15.03-25.03  l  20.00-21.00 - 1 hr</p>
-                        <p class="extratxt">Never ending monologues about regrets, sorries, unanswered questions with ourselves...</p>
+                        <p>{% trans 'IandMetxt' %}</p>
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div> 
@@ -69,9 +69,9 @@
                 </div>
                 <div class="show">
                     <div class="showtxt">
-                        <h5>THE FRAME</h5>
+                        <h5>{% trans 'TheFrame' %}</h5>
                         <p>26.03-05.04  l  20.00-21.00 - 1 hr</p>
-                        <p class="extratxt">Will we ever be able to see the lines around us and try to step out?</p>
+                        <p>{% trans 'TheFrametxt' %}</p>
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div>
@@ -84,15 +84,15 @@
         <div id="upcoming">
             <div class="showmsg">
                 <hr>
-                <a>Upcoming</a>
+                <a>{% trans 'Upcoming' %}</a>
                 <hr>
             </div>
             <div class="shows">
                 <div class="show">
                     <div class="showtxt">
-                        <h5>THE FRAME</h5>
+                        <h5>{% trans 'TheFrame' %}</h5>
                         <p>26.03-05.04  l  20.00-21.00 - 1 hr</p>
-                        <p class="extratxt">Will we ever be able to see the lines around us and try to step out?</p>
+                        <p>{% trans 'TheFrametxt' %}</p>
                         <p>Story: S. Hajiyeva <br> Director: S. Hajiyeva</p>
                         <button>Get a ticket</button>
                     </div>
@@ -103,10 +103,10 @@
         </div>
         
         <ul id="footernav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#">INFO</a></li>
-            <li><a href="#">TICKETS</a></li>
-            <li><a href="#">AZ</a></li>
+            <li><a href="">{% trans 'Home' %}</a></li>
+            <li><a href="#">{% trans 'Info' %}</a></li>
+            <li><a href="#">{% trans 'Tickets' %}</a></li>
+            <li><a href="az">AZ</a></li>
         </ul>
         
         <footer>
