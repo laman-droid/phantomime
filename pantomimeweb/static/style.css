@@ -290,13 +290,13 @@ html{
     #now_showing{
         background-color: #C2D6DB;
         margin-top: 5em;
-        padding: 4em 1em 2em 1em;
+        padding: 4em 2em 2em 2em;
 
     }
     
     #upcoming{
         background-color: #C55B71;
-        padding: 4em 1em 2em 1em;
+        padding: 4em 2em 2em 2em;
     }
     
     .showmsg {
@@ -327,23 +327,29 @@ html{
         display: flex;
         text-align: center;
         width: 100%;
-        margin-bottom: 5%;
         max-height: 35em;
-        justify-content: center;  
+        justify-content: center;
+        margin-bottom: 2em;  
     }
     
     .showtxt {
-        background-color: #8fb4bd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
         font-size: 1em;
-        color:white;
-        padding: 1em;
+        color:black;
+        opacity: 0.8;
+        padding: 2em;
         width: 70%;
         overflow: hidden;
+        word-wrap: break-word;
     }
 
-    #upcoming .showtxt{
+    /*#upcoming .showtxt{
         background-color: #e8bdc6;
-    }
+    }*/
     
     .showtxt > h5 {
         font-size: 1.2em;
@@ -364,12 +370,20 @@ html{
     }
     
     button{
-        background-color: #BD2030;
-        border-radius: 1.22em;
-        width: 8em;
-        height: 2.5em;
-        color: white;
-        margin-bottom: 1em;
+        background-color: #8fb4bd;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 3em;
+        text-align: center;
+        height: 3em;
+        text-align: center;
+        width: 15em;
+        cursor: pointer;
+        margin-top: auto;
+    }
+
+    #upcoming button{
+        background-color: #d07b8d;
     }
     
     /***----------footer----------***/
@@ -450,5 +464,16 @@ html{
     
     #empty {
         width:60%;
+    }
+
+    .shows {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 3em;
+        justify-content: center;
+    }
+
+    .show {
+        margin-bottom: 0;
     }
 }

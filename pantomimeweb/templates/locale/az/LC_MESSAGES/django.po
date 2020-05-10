@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 13:20+0200\n"
+"POT-Creation-Date: 2020-05-10 19:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr "Pantomima Teatrı"
 
 #: .\index.html:17 .\index.html:33
 msgid "Pantomime"
-msgstr "Pantomim"
+msgstr "Pantomima"
 
 #: .\index.html:17 .\index.html:34
 msgid "Theatre"
@@ -38,11 +38,12 @@ msgstr "Əsas"
 msgid "Info"
 msgstr "İnfo"
 
-#: .\index.html:22 .\index.html:108
+#: .\index.html:22 .\index.html:55 .\index.html:66 .\index.html:76
+#: .\index.html:97 .\index.html:108
 msgid "Tickets"
 msgstr "Biletlər"
 
-#: .\index.html:23
+#: .\index.html:23 .\index.html:135
 msgid "Press"
 msgstr "Xəbərlər"
 
@@ -51,33 +52,67 @@ msgid "Kids"
 msgstr "Uşaqlar"
 
 #: .\index.html:43
-msgid "NowShowing"
-msgstr ""
+msgid "Now Showing"
+msgstr "Aktual tamaşalar"
 
 #: .\index.html:49
-msgid "TheMask"
+msgid "The Mask"
 msgstr "Maska"
+
+#: .\index.html:50 .\index.html:63 .\index.html:73 .\index.html:94
+msgid "hr"
+msgstr ""
 
 #: .\index.html:51
 msgid "TheMasktxt"
-msgstr "Maska ilə bağlı yazılar"
+msgstr "Bugün hansı maskan geyinəcəyin geyimə uyğun gedər deyə düşürsənmi? "
 
 #: .\index.html:62
-msgid "IandMe"
+msgid "I and Me"
 msgstr "Mən və mən"
 
 #: .\index.html:64
 msgid "IandMetxt"
-msgstr "Mən və mən ilə bağlı yazılar"
+msgstr "Öz-özümüzlə apardığımız bitmək bilməyən danışıqlar..."
+
+#: .\index.html:65 .\index.html:75 .\index.html:96
+msgid "Story"
+msgstr "Ssenari"
+
+#: .\index.html:65 .\index.html:75 .\index.html:96
+msgid "Director"
+msgstr "Rejissor"
 
 #: .\index.html:72 .\index.html:93
-msgid "TheFrame"
+msgid "The Frame"
 msgstr "Çərçivə"
 
 #: .\index.html:74 .\index.html:95
 msgid "TheFrametxt"
-msgstr "Çərçivə ilə bağlı yazılar"
+msgstr ""
+"Ətrafımızda yaratdığımız o xətləri nə vaxt görməyə başlayacağıq? Nə vaxt bir "
+"addım sola atacağıq?"
 
 #: .\index.html:87
 msgid "Upcoming"
-msgstr ""
+msgstr "Gələcək tamaşalar"
+
+#: .\index.html:114 .\index.html:134
+msgid "About Us"
+msgstr "Haqqımızda"
+
+#: .\index.html:115
+msgid "AboutUstxt"
+msgstr "Pantomima teatrı tamaşaların ifa edilməsi tərzinə görə qeyri-adi bir yerdir. Burada siz bütün hisləri şeirlər, rəqslər, mimiklərlə sözlər olmadan hiss edəcəksiniz."
+
+#: .\index.html:133
+msgid "Information"
+msgstr "Məlumatlar"
+
+#: .\index.html:136
+msgid "News"
+msgstr "Xəbərlər"
+
+#: .\index.html:162
+msgid "Newsletter"
+msgstr "Yeniliklərdən xəbərdar olmaq üçün üzv olun:"
