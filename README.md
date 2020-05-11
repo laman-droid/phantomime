@@ -1,1 +1,1 @@
-This project is about redesigning a phantomime theatre website (pantomima.az). Live at laman-mahammadli.com
+This project is about redesigning a pantomime theatre website (pantomima.az). Live at laman-mahammadli.com
