@@ -218,7 +218,9 @@ html{
       text-align: left;
     }
 
-    .dropdown-content a:hover {background-color: #BD2030;
+    .dropdown-content a:hover {
+        background-color: black;
+        color:red;
     }
 
     .dropdown:hover .dropdown-content {

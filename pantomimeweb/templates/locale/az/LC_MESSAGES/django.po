@@ -61,7 +61,7 @@ msgstr "Maska"
 
 #: .\index.html:50 .\index.html:63 .\index.html:73 .\index.html:94
 msgid "hr"
-msgstr ""
+msgstr "saat"
 
 #: .\index.html:51
 msgid "TheMasktxt"
