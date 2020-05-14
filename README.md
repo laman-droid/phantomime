@@ -1,1 +1,1 @@
-This project is about redesigning a pantomime theatre website (pantomima.az). Live at laman-mahammadli.com
+This project is about redesigning a pantomime theatre website (pantomima.az). The website is made by combining different css layout techniques (flexbox, grid) responsive on 3 different screen-sizes (break points:600px, 1200px) and bilingual. The links to different pages are not working at the moment. Live at laman-mahammadli.com
