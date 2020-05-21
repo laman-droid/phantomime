@@ -44,19 +44,25 @@
                 <hr>
             </div>
             <div class="shows">
+                {% for nowshow in nowshows %}
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>{{ nowshow.title }}</h5>
+                        <p>{{ nowshow.description }}</p>
+                        <button>{% trans 'Tickets' %}</button>
+                    </div>
+                </div>
+                {% endfor %}
                 <div class="show">
                     <div class="showtxt">
                         <h5>{% trans 'The Mask' %}</h5>
                         <p>15.03-25.03  l  20.00-21.00 - 1 {% trans 'hr' %}</p>
                         <p>{% trans 'TheMasktxt' %}</p>
-                            
-                            
                         <p>{% trans 'Story' %}: S. Hajiyeva <br> {% trans 'Director' %}: S. Hajiyeva</p>
                         <button>{% trans 'Tickets' %}</button>
                     </div>
                         <img class="showpic" src="{% static '/img/mask.jpg' %}" alt="a girl dancing in front of a mask hanging on the wall">
                 </div>
-
                 <div class="show">
                     <div class="showtxt">
                         <h5>{% trans 'I and Me' %}</h5>
@@ -88,6 +94,15 @@
                 <hr>
             </div>
             <div class="shows">
+                {% for upcomingshow in upcomingshows %}
+                <div class="show">
+                    <div class="showtxt">
+                        <h5>{{ upcomingshow.title }}</h5>
+                        <p>{{ upcomingshow.description }}</p>
+                        <button>{% trans 'Tickets' %}</button>
+                    </div>
+                </div>
+                {% endfor %}
                 <div class="show">
                     <div class="showtxt">
                         <h5>{% trans 'The Frame' %}</h5>
@@ -97,8 +112,7 @@
                         <button>{% trans 'Tickets' %}</button>
                     </div>
                         <img class="showpic" src="{% static '/img/frame.jpg' %}" alt="a man on his knees reaching up with his right hand in blue light">
-                </div>
-                
+                </div>          
             </div>
         </div>
         
